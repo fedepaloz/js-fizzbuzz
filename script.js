@@ -9,23 +9,15 @@ Abbiamo visto qualcosa di particolare che possiamo usare? */
 //se x è divisibile per 5 allora il risultato è buzz 
 //se x è divisibile per 3 e per 5 allora il risultato è fizzbuzz
 
-
-
-
-
-
-
-
-
+const numberPage = document.getElementById('multipli')
 
 for (let i = 1 ; i <= 100 ; i++) {
-  
+ 
   if (i % 15 == 0 ) {console.log("fizzbuzz")}
   else if (i % 3 == 0) {console.log("fizz")}
   else if (i % 5 == 0) {console.log("buzz")}
- 
+  else {console.log(i)}
+ }
 
-  console.log(i)
 
-}
 
